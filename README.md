@@ -79,6 +79,8 @@
 <summary>4. LeastCommonMultiple.java</summary>
    
    + **Description**: The least common multiple of two positive integers 𝑎 and 𝑏 is the least positive integer 𝑚 that is divisible by both 𝑎 and 𝑏. Given two integers 𝑎 and 𝑏, find their least common multiple.
+
+<p width="100%" align="center"> <img width="347" alt="Equation" src="https://github.com/AfonsoBernardes/AlgorithmicToolbox/assets/84087794/28e888f6-1c2b-404b-b167-efb0623aea41"> </p>
      
    + **Input Format**: The two integers 𝑎 and 𝑏 are given in the same line separated by space.
      
