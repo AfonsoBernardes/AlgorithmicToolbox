@@ -1,4 +1,4 @@
-<div width="100%" align="center"> <h1> Data Structures </h1> </div>
+<div width="100%" align="center"> <h1> Algorithmic Toolbox </h1> </div>
 
 ## Solutions of Coursera's "Algorithmic Toolbox" course, part of the "Data Structures and Algorithms Specialization"; offered by the University of California San Diego and HSE University. ##
 
