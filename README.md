@@ -3,7 +3,7 @@
 ## Solutions of Coursera's "Algorithmic Toolbox" course, part of the "Data Structures and Algorithms Specialization"; offered by the University of California San Diego and HSE University. ##
 
 
-### Assignment 1 - Week 1 ###
+### Assignment 1 (Week 1): Programming Challenges ###
 
 <details>
 <summary>1. APlusB.java</summary>
@@ -34,7 +34,7 @@
 
 ----
 
-### Assignment 2 - Week 2 ###
+### Assignment 2 (Week 2): Algorithmic Warm-up ###
 
 <details>
 <summary>1. FibonacciNumber.java</summary>
@@ -95,7 +95,7 @@
 
 ----
 
-### Assignment 3 - Week 3 ###
+### Assignment 3 (Week 3): Greedy Algorithms ###
 
 <details>
 <summary>1. CarFueling.java</summary>
@@ -133,4 +133,33 @@
    + **Constraints**: 1 $\leq$ 𝑚 $\leq$ 10<sup>3</sup>.
      
    + **Output Format**: Output the minimum number of coins with denominations 1, 5, 10 that changes 𝑚.
+</details>
+
+----
+
+### Assignment 4 (Week 4): Divide-and-Conquer ###
+
+<details>
+<summary>1. BinarySearch.java</summary>
+   
+   + **Description**: 
+     
+   + **Input Format**: 
+     
+   + **Constraints**: 
+     
+   + **Output Format**: 
+</details>
+
+
+<details>
+<summary>2. MajorityElement.java</summary><br />
+   
+   + **Description**: 
+     
+   + **Input Format**: 
+     
+   + **Constraints**: 
+     
+   + **Output Format**: 
 </details>
