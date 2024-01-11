@@ -153,13 +153,13 @@
 
 
 <details>
-<summary>2. MajorityElement.java</summary><br />
+<summary>2. MajorityElement.java</summary>
    
-   + **Description**: 
+   + **Description**: Majority rule is a decision rule that selects the alternative which has a majority, that is, more than half the votes. Given a sequence of elements a<sub>1</sub>, a<sub>2</sub>, . . . , a<sub>n</sub>, check whether it contains an element that appears more than 𝑛/2 times. Use the divide-and-conquer technique to design an 𝑂(𝑛 log 𝑛) algorithm.
      
-   + **Input Format**: 
+   + **Input Format**: The first line contains an integer 𝑛, and the next one contains a sequence of 𝑛 non-negative integers a<sub>0</sub>, a<sub>1</sub>, . . . $<$ a<sub>n-1</sub>.
      
-   + **Constraints**: 
+   + **Constraints**: 1 $\leq$ 𝑛 $\leq$ 10<sup>5</sup>; 0 $\leq$ a<sub>i</sub> $\leq$ 10<sup>9</sup> for all 0 $\leq$ 𝑖 $<$ 𝑛.
      
-   + **Output Format**: 
+   + **Output Format**: Output 1 if the sequence contains an element that appears strictly more than 𝑛/2 times, and 0 otherwise.
 </details>
