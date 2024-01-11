@@ -142,13 +142,13 @@
 <details>
 <summary>1. BinarySearch.java</summary>
    
-   + **Description**: 
+   + **Description**: implement the binary search algorithm that allows searching LIST very efficiently, provided that the list is sorted.
      
-   + **Input Format**: 
+   + **Input Format**: The first line of the input contains an integer 𝑛 and a sequence a<sub>0</sub> $<$ a<sub>1</sub> $<$ . . . $<$ a<sub>n-1</sub> of 𝑛 pairwise distinct positive integers in increasing order. The next line contains an integer 𝑘 and 𝑘 positive integers b<sub>0</sub>, b<sub>1</sub>, . . . , b<sub>k-1</sub>.
      
-   + **Constraints**: 
+   + **Constraints**: 1 $\leq$ 𝑛, 𝑘 $\leq$ 10<sup>4</sup>; 1 $\leq$ a<sub>i</sub> $\leq$ 10<sup>9</sup> for all 0 $\leq$ 𝑖 $<$ 𝑛; 1 $\leq$ b<sub>j</sub> $\leq$ 10<sup>9</sup> for all 0 $\leq$ 𝑗 $<$ 𝑘;
      
-   + **Output Format**: 
+   + **Output Format**: For all 𝑖 from 0 to $𝑘−1$, output an index 0 $\leq$ 𝑗 $\leq$ $𝑛−1$ such that a<sub>j</sub> $=$ b<sub>i</sub> or −1 if there is no such index.
 </details>
 
 
