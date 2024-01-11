@@ -92,3 +92,45 @@
      
    + **Output Format**: Output the least common multiple of 𝑎 and 𝑏.
 </details>
+
+----
+
+### Assignment 3 - Week 3 ###
+
+<details>
+<summary>1. CarFueling.java</summary>
+   
+   + **Description**: We are going to travel to another city that is located 𝑑 miles away from your home city. We can travel at most 𝑚 miles on a full tank and you start with a full tank. Along your way, there are gas stations at distances stop<sub>1</sub>, stop<sub>2</sub>, . . . , stop<sub>n</sub> from your home city. What is the minimum number of refills needed?
+     
+   + **Input Format**: The first line contains an integer 𝑑. The second line contains an integer 𝑚. The third line specifies an integer 𝑛. Finally, the last line contains integers stop<sub>1</sub>, stop<sub>2</sub>, . . . , stop<sub>n</sub>
+     
+   + **Constraints**: 1 $\leq$ 𝑑 $\leq$ 10<sup>5</sup>; 1 $\leq$ 𝑚 $\leq$ 400; 1 $\leq$ 𝑛 $\leq$ 300; 0 $<$ stop<sub>1</sub> $<$ stop<sub>2</sub> $<$ · · · $<$ stop<sub>n</sub> $<$ 𝑚
+     
+   + **Output Format**: Assuming that the distance between the cities is 𝑑 miles, a car can travel at most 𝑚 miles on a full tank, and there are gas stations at distances stop<sub>1</sub>, stop<sub>2</sub>, . . . , stop<sub>n</sub> along the way, output the minimum number of refills needed. Assume that the car starts with a full tank. If it is not possible to reach the destination, output −1.
+</details>
+
+
+<details>
+<summary>2. MaximumLootValue.java</summary><br />
+   
+   + **Description**: Implement an algorithm for the fractional knapsack problem to find the most valuable combination of items assuming that any fraction of a loot item can be put into a "bag".
+     
+   + **Input Format**: The first line of the input contains the number 𝑛 of items and the capacity 𝑊 of a knapsack. The next 𝑛 lines define the values and weights of the items. The 𝑖-th line contains integers v<sub>i</sub> and w<sub>i</sub> — the value and the weight of 𝑖-th item, respectively.
+     
+   + **Constraints**: 1 $\leq$ 𝑛 $\leq$ 10<sup>3</sup>, 0 $\leq$ 𝑊 $\leq$ 2 $\cdot$ 10<sup>6</sup>; 0 $\leq$ v<sub>i</sub> $\leq$ 2 · 10<sup>6</sup>, 0 $<$ w<sub>i</sub> $\leq$ 2 · 10<sup>6</sup> for all 1 $\leq$ 𝑖 $\leq$ 𝑛. All the numbers are integers.
+     
+   + **Output Format**: Output the maximal value of fractions of items that fit into the knapsack. The absolute value of the difference between the answer of your program and the optimal value should be at most 10<sup>-3</sup>. To ensure this, output your answer with at least four digits after the decimal point (otherwise your answer, while being computed correctly, can turn out to be wrong because of rounding issues).
+</details>
+
+
+<details>
+<summary>3. MoneyChange.java</summary>
+   
+   + **Description**:  Design and implement an elementary greedy algorithm to find the minimum number of coins needed to change the input value (an integer) into coins with denominations 1, 5, and 10.
+     
+   + **Input Format**: The input consists of a single integer 𝑚.
+     
+   + **Constraints**: 1 $\leq$ 𝑚 $\leq$ 10<sup>3</sup>.
+     
+   + **Output Format**: Output the minimum number of coins with denominations 1, 5, 10 that changes 𝑚.
+</details>
