@@ -203,3 +203,32 @@
      
    + **Output Format**: In the first line, output the minimum number *𝑘* of operations needed to get *𝑛* from 1. In the second line, output a sequence of intermediate numbers. That is, the second line should contain positive integers a<sub>0</sub>, a<sub>1</sub>, . . . , a<sub>k-1</sub> such that a<sub>0</sub> $=$ 1, a<sub>k-1</sub> = *𝑛* and for all 0 $\leq$ *𝑖* $<$ $𝑘−1$, a<sub>i+1</sub> is equal to either a<sub>i</sub>+1, 2a<sub>i</sub>, or 3a<sub>i</sub>. If there are many such sequences, output any one of them.
 </details>
+
+----
+
+### Assignment 6 (Week 6): Dynamic Programming II ###
+
+<details>
+<summary>1. MaximumAmountGold.java</summary>
+   
+   + **Description**: Given a set of bars of gold, the goal is to take as much gold as possible into a bag. There is just one copy of each bar and for each bar you can either take it or not (hence you cannot take a fraction of a bar). Given *𝑛* gold bars, find the maximum weight of gold that fits into a bag of capacity *𝑊*.
+     
+   + **Input Format**: The first line of the input contains the capacity *𝑊* of a knapsack and the number *𝑛* of bars of gold. The next line contains *𝑛* integers w<sub>0</sub>, w<sub>1</sub>, . . . , w<sub>n-1</sub> defining the weights of the bars of gold.
+     
+   + **Constraints**: 1 $\leq$ *𝑊* $\leq$ 10<sup>4</sup>; 1 $\leq$ 𝑛 $\leq$ 300; 0 $\leq$ w<sub>0</sub>, w<sub>1</sub>, . . . , w<sub>n-1</sub> $\leq$ 10<sup>5</sup>.
+     
+   + **Output Format**: Output the maximum weight of gold that fits into a knapsack of capacity *𝑊*.
+</details>
+
+
+<details>
+<summary>2. MaximumValueOfArithmeticExpression.java</summary><br />
+   
+   + **Description**: Find the maximum value of an arithmetic expression, by specifying the order of applying its arithmetic operations by adding parentheses.
+     
+   + **Input Format**: The only line of the input contains a string 𝑠 of length $2𝑛 + 1$ for some *𝑛*, with symbols s<sub>0</sub>, s<sub>1</sub>, . . . , s<sub>2n</sub>. Each symbol at an even position of *s* is a digit (that is, an integer from 0 to 9) while each symbol at an odd position is one of three operations from {+,-,*}.
+     
+   + **Constraints**: 1 $\leq$ 𝑛 $\leq$ 14 (hence the string contains at most 29 symbols).
+     
+   + **Output Format**: Output the maximum possible value of the given arithmetic expression among different orders of applying arithmetic operations.
+</details>
