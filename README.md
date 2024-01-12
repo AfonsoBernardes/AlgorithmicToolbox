@@ -163,3 +163,43 @@
      
    + **Output Format**: Output 1 if the sequence contains an element that appears strictly more than 𝑛/2 times, and 0 otherwise.
 </details>
+
+----
+
+### Assignment 5 (Week 5): Dynamic Programming I ###
+
+<details>
+<summary>1. EditDistance.java</summary>
+   
+   + **Description**: The edit distance between two strings is the minimum number of operations (insertions, deletions, and substitutions of symbols) to transform one string into another. It is a measure of similarity of two strings. The goal of this problem is to implement the algorithm for computing the edit distance between two strings.
+     
+   + **Input Format**: Each of the two lines of the input contains a string consisting of lowercase Latin letters.
+     
+   + **Constraints**: The length of both strings is at least 1 and at most 100.
+     
+   + **Output Format**: Output the edit distance between the given two strings.
+</details>
+
+
+<details>
+<summary>2. MoneyChangeAgain.java</summary><br />
+   
+   + **Description**: A natural greedy strategy for the change problem does not work correctly for any set of denominations. For example, if the available denominations are 1, 3, and 4, the greedy algorithm will change 6 cents using three coins (4 + 1 + 1) while it can be changed using just two coins (3 + 3). The goal now is to apply dynamic programming for solving the Money Change Problem for denominations 1, 3, and 4.
+     
+   + **Input Format**: Integer *money*.
+     
+   + **Constraints**: 1 $\leq$ money $\leq$ 10<sup>3</sup>.
+     
+   + **Output Format**: The minimum number of coins with denominations 1, 3, and 4 that change *money*.
+</details>
+
+
+<details>
+<summary>3. PrimitiveCalculator.java</summary>
+   
+   + **Description**: Given a primitive calculator that can perform the following three operations with the current number *𝑥*: multiply *𝑥* by 2, multiply *𝑥* by 3, or add 1 to *𝑥*. Given an integer 𝑛, compute the minimum number of operations needed to obtain the number 𝑛 starting from the number 1.
+     
+   + **Input Format**: The input consists of a single integer 1 $\leq$ 𝑛 $\leq$ 10<sup>6</sup>.
+     
+   + **Output Format**: In the first line, output the minimum number *𝑘* of operations needed to get *𝑛* from 1. In the second line, output a sequence of intermediate numbers. That is, the second line should contain positive integers a<sub>0</sub>, a<sub>1</sub>, . . . , a<sub>k-1</sub> such that a<sub>0</sub> $=$ 1, a<sub>k-1</sub> = *𝑛* and for all 0 $\leq$ *𝑖* $<$ $𝑘−1$, a<sub>i+1</sub> is equal to either a<sub>i</sub>+1, 2a<sub>i</sub>, or 3a<sub>i</sub>. If there are many such sequences, output any one of them.
+</details>
